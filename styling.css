@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-item{
+    text-decoration:none;
+    padding:1rem;
+}
+button:focus {
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color:red;
+    font-weight: bolder;
+    border-bottom: 1px solid red;
+}
+.navbar-nav{
+    justify-content: flex-end;
+}
+.navbar-brand{
+    padding-left: 1rem;;
+    font-weight:bolder;
+    color: brown;
+}
+.jumbotron{
+ background-image: url("images/purple.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h1{
+    color:antiquewhite;
+}
+.text{
+    font-weight: bolder;
+    color:brown;
+}
+p{
+    text-align: center;
+}
+.ani{
+    animation:zoomInUp;
+    animation-duration: 5s;
+}
+.ani:hover{
+    border-color: brown;
+}
+.booksmakeme{
+    border-radius: 0.5rem;
+    animation: backInLeft;
+    animation-duration: 2s;
+}
+.dash:hover{
+    font-weight: bolder;
+    color:red;
+}
